@@ -1,7 +1,17 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="752e605d-a048-4088-9ce3-a60af23237af" name="Default" comment="" />
+    <list default="true" id="752e605d-a048-4088-9ce3-a60af23237af" name="Default" comment="">
+      <change afterPath="$PROJECT_DIR$/feature_extraction/mfcc.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/feature_extraction/spectrogram.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.ipynb_checkpoints/py3_main-checkpoint.ipynb" beforeDir="false" afterPath="$PROJECT_DIR$/.ipynb_checkpoints/py3_main-checkpoint.ipynb" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/feature_extraction/extractor_py2.py" beforeDir="false" afterPath="$PROJECT_DIR$/feature_extraction/lpcc_py2.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/feature_extraction/extractor_py3.py" beforeDir="false" afterPath="$PROJECT_DIR$/feature_extraction/simple_extractor_py3.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/py3_main.ipynb" beforeDir="false" afterPath="$PROJECT_DIR$/py3_main.ipynb" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/tools/drawer_utils.py" beforeDir="false" afterPath="$PROJECT_DIR$/tools/drawer_utils.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/tools/sound_utils.py" beforeDir="false" afterPath="$PROJECT_DIR$/tools/sound_utils.py" afterDir="false" />
+    </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="TRACKING_ENABLED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -11,11 +21,11 @@
   </component>
   <component name="FileEditorManager">
     <leaf>
-      <file leaf-file-name="drawer_utils.py" pinned="false" current-in-tab="false">
+      <file leaf-file-name="drawer_utils.py" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/tools/drawer_utils.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="297">
-              <caret line="11" column="15" selection-start-line="11" selection-start-column="15" selection-end-line="11" selection-end-column="15" />
+            <state relative-caret-position="302">
+              <caret line="29" column="66" selection-start-line="29" selection-start-column="66" selection-end-line="29" selection-end-column="66" />
               <folding>
                 <element signature="e#0#18#0" expanded="true" />
               </folding>
@@ -27,7 +37,31 @@
         <entry file="file://$PROJECT_DIR$/tools/sound_utils.py">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="216">
-              <caret line="8" selection-start-line="8" selection-end-line="8" />
+              <caret line="8" column="30" selection-start-line="8" selection-start-column="30" selection-end-line="8" selection-end-column="30" />
+              <folding>
+                <element signature="e#0#24#0" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="mfcc.py" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/feature_extraction/mfcc.py">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="383">
+              <caret line="70" selection-start-line="70" selection-end-line="70" />
+              <folding>
+                <element signature="e#0#18#0" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="spectrogram.py" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/feature_extraction/spectrogram.py">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="-486">
+              <caret line="48" column="7" lean-forward="true" selection-start-line="48" selection-start-column="7" selection-end-line="48" selection-end-column="7" />
             </state>
           </provider>
         </entry>
@@ -41,20 +75,20 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="extractor_py3.py" pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/feature_extraction/extractor_py3.py">
+      <file leaf-file-name="simple_extractor_py3.py" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/feature_extraction/simple_extractor_py3.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="318">
-              <caret line="67" column="19" lean-forward="true" selection-start-line="67" selection-start-column="19" selection-end-line="67" selection-end-column="19" />
+            <state relative-caret-position="459">
+              <caret line="77" column="28" selection-start-line="77" selection-start-column="28" selection-end-line="77" selection-end-column="28" />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="extractor_py2.py" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/feature_extraction/extractor_py2.py">
+      <file leaf-file-name="lpcc_py2.py" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/feature_extraction/lpcc_py2.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="270">
-              <caret line="10" column="29" selection-start-line="10" selection-start-column="29" selection-end-line="10" selection-end-column="29" />
+            <state relative-caret-position="162">
+              <caret line="6" column="6" selection-start-line="6" selection-start-column="6" selection-end-line="6" selection-end-column="6" />
               <folding>
                 <element signature="e#0#28#0" expanded="true" />
               </folding>
@@ -78,8 +112,6 @@
     <option name="CHANGED_PATHS">
       <list>
         <option value="$PROJECT_DIR$/tools/drawer.py" />
-        <option value="$PROJECT_DIR$/tools/drawer_utils.py" />
-        <option value="$PROJECT_DIR$/tools/sound_utils.py" />
         <option value="$PROJECT_DIR$/preatreatment/pre-emphasis.py" />
         <option value="$PROJECT_DIR$/preatreatment/pre_emphasis.py" />
         <option value="$PROJECT_DIR$/preatreatment/pretreatment.py" />
@@ -87,6 +119,10 @@
         <option value="$PROJECT_DIR$/feature_extraction/extractor.py" />
         <option value="$PROJECT_DIR$/feature_extraction/extractor-py2.py" />
         <option value="$PROJECT_DIR$/pretreatment/pretreatment.py" />
+        <option value="$PROJECT_DIR$/tools/sound_utils.py" />
+        <option value="$PROJECT_DIR$/feature_extraction/mfcc.py" />
+        <option value="$PROJECT_DIR$/feature_extraction/spectrogram.py" />
+        <option value="$PROJECT_DIR$/tools/drawer_utils.py" />
       </list>
     </option>
   </component>
@@ -180,7 +216,8 @@
     <servers />
   </component>
   <component name="ToolWindowManager">
-    <frame x="-7" y="0" width="974" height="1047" extended-state="0" />
+    <frame x="953" y="0" width="974" height="1047" extended-state="0" />
+    <editor active="true" />
     <layout>
       <window_info anchor="bottom" id="TODO" order="6" />
       <window_info anchor="bottom" id="Event Log" side_tool="true" />
@@ -212,31 +249,11 @@
     <option name="myLimit" value="2678400000" />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/tools/drawer_utils.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="297">
-          <caret line="11" column="15" selection-start-line="11" selection-start-column="15" selection-end-line="11" selection-end-column="15" />
-          <folding>
-            <element signature="e#0#18#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/preatreatment/pre_emphasis.py">
       <provider selected="true" editor-type-id="text-editor" />
     </entry>
     <entry file="file://$PROJECT_DIR$/feature_extraction/short_time_energy.py">
       <provider selected="true" editor-type-id="text-editor" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/feature_extraction/extractor_py2.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="270">
-          <caret line="10" column="29" selection-start-line="10" selection-start-column="29" selection-end-line="10" selection-end-column="29" />
-          <folding>
-            <element signature="e#0#28#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/pretreatment/pretreatment.py">
       <provider selected="true" editor-type-id="text-editor">
@@ -245,17 +262,57 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/tools/sound_utils.py">
+    <entry file="file://$PROJECT_DIR$/feature_extraction/simple_extractor_py3.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="216">
-          <caret line="8" selection-start-line="8" selection-end-line="8" />
+        <state relative-caret-position="459">
+          <caret line="77" column="28" selection-start-line="77" selection-start-column="28" selection-end-line="77" selection-end-column="28" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/feature_extraction/extractor_py3.py">
+    <entry file="file://$PROJECT_DIR$/feature_extraction/mfcc.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="318">
-          <caret line="67" column="19" lean-forward="true" selection-start-line="67" selection-start-column="19" selection-end-line="67" selection-end-column="19" />
+        <state relative-caret-position="383">
+          <caret line="70" selection-start-line="70" selection-end-line="70" />
+          <folding>
+            <element signature="e#0#18#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/feature_extraction/lpcc_py2.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="162">
+          <caret line="6" column="6" selection-start-line="6" selection-start-column="6" selection-end-line="6" selection-end-column="6" />
+          <folding>
+            <element signature="e#0#28#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/feature_extraction/spectrogram.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-486">
+          <caret line="48" column="7" lean-forward="true" selection-start-line="48" selection-start-column="7" selection-end-line="48" selection-end-column="7" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/tools/sound_utils.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="216">
+          <caret line="8" column="30" selection-start-line="8" selection-start-column="30" selection-end-line="8" selection-end-column="30" />
+          <folding>
+            <element signature="e#0#24#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/tools/drawer_utils.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="302">
+          <caret line="29" column="66" selection-start-line="29" selection-start-column="66" selection-end-line="29" selection-end-column="66" />
+          <folding>
+            <element signature="e#0#18#0" expanded="true" />
+          </folding>
         </state>
       </provider>
     </entry>

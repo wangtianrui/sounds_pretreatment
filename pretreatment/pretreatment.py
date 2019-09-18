@@ -1,4 +1,6 @@
 import numpy as np
+from pyhht import EMD
+from scipy.signal import hilbert
 
 
 def pre_emphasis(sound_array, u):
@@ -33,3 +35,10 @@ def enframe(signal, nw, inc, window_func=None):
         win = np.tile(window_func, (nf, 1))
         return frames * win
     return frames
+
+
+def hht(signal):
+    decomposer = EMD(signal)
+    imfs = decomposer.decompose()
+    ht = hilbert(imfs)
+    return imfs, ht

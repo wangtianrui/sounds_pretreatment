@@ -15,9 +15,10 @@ def scatter_array(array):
 
 
 def plot_colormesh(array):
-    shape = np.shape(array)
-    plt.pcolormesh(range(shape[1]), range(shape[0]), array)
-    plt.show()
+    fig, ax = plt.subplots(nrows=1, ncols=1, figsize=(20, 4))
+    heatmap = plt.pcolor(array)
+    fig.colorbar(heatmap)
+    plt.tight_layout()
 
 
 def plot_colorbar(array):
@@ -27,6 +28,6 @@ def plot_colorbar(array):
     :return:
     """
     fig, ax = plt.subplots(nrows=1, ncols=1, figsize=(20, 4))
-    cax = ax.matshow(array, interpolation='nearest', aspect='auto', origin='lower')
-    fig.colorbar(cax)
-    plt.show()
+    heatmap = plt.pcolor(array)
+    fig.colorbar(heatmap)
+    plt.tight_layout()

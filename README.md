@@ -24,4 +24,6 @@
 
 * MFCC
 
-* 
+* Formant
+
+* FBank

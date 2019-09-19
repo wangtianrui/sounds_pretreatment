@@ -2,12 +2,15 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="752e605d-a048-4088-9ce3-a60af23237af" name="Default" comment="">
-      <change afterPath="$PROJECT_DIR$/feature_extraction/formant.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/feature_extraction/fbank.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/feature_extraction/spectral_subband_centroids.py" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.ipynb_checkpoints/py3_main-checkpoint.ipynb" beforeDir="false" afterPath="$PROJECT_DIR$/.ipynb_checkpoints/py3_main-checkpoint.ipynb" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/README.md" beforeDir="false" afterPath="$PROJECT_DIR$/README.md" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/feature_extraction/plp.py" beforeDir="false" afterPath="$PROJECT_DIR$/feature_extraction/plp.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/pretreatment/pretreatment.py" beforeDir="false" afterPath="$PROJECT_DIR$/pretreatment/pretreatment.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/feature_extraction/formant.py" beforeDir="false" afterPath="$PROJECT_DIR$/feature_extraction/formant.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/feature_extraction/mfcc.py" beforeDir="false" afterPath="$PROJECT_DIR$/feature_extraction/mfcc.py" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/py3_main.ipynb" beforeDir="false" afterPath="$PROJECT_DIR$/py3_main.ipynb" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/tools/drawer_utils.py" beforeDir="false" afterPath="$PROJECT_DIR$/tools/drawer_utils.py" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="TRACKING_ENABLED" value="true" />
@@ -21,8 +24,8 @@
       <file leaf-file-name="mfcc.py" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/feature_extraction/mfcc.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="189">
-              <caret line="9" column="7" selection-start-line="9" selection-start-column="7" selection-end-line="9" selection-end-column="7" />
+            <state relative-caret-position="1107">
+              <caret line="74" selection-start-line="74" selection-end-line="74" />
               <folding>
                 <element signature="e#0#18#0" expanded="true" />
               </folding>
@@ -30,11 +33,29 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="spectrogram.py" pinned="false" current-in-tab="false">
+      <file leaf-file-name="spectrogram.py" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/feature_extraction/spectrogram.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="756">
-              <caret line="28" column="29" selection-start-line="28" selection-start-column="29" selection-end-line="28" selection-end-column="29" />
+            <state relative-caret-position="189">
+              <caret line="49" column="24" selection-start-line="49" selection-start-column="14" selection-end-line="49" selection-end-column="24" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="base.py" pinned="false" current-in-tab="false">
+        <entry file="file://E:/Anaconda3/envs/mypython/Lib/site-packages/python_speech_features/base.py">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="456">
+              <caret line="81" column="23" selection-start-line="81" selection-start-column="23" selection-end-line="81" selection-end-column="23" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="spectral_subband_centroids.py" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/feature_extraction/spectral_subband_centroids.py">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="135">
+              <caret line="5" selection-start-line="5" selection-end-line="5" />
             </state>
           </provider>
         </entry>
@@ -48,11 +69,11 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="formant.py" pinned="false" current-in-tab="true">
+      <file leaf-file-name="formant.py" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/feature_extraction/formant.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="424">
-              <caret line="22" lean-forward="true" selection-start-line="22" selection-end-line="22" />
+            <state relative-caret-position="243">
+              <caret line="10" column="30" selection-start-line="10" selection-start-column="30" selection-end-line="10" selection-end-column="30" />
               <folding>
                 <element signature="e#0#18#0" expanded="true" />
               </folding>
@@ -63,26 +84,8 @@
       <file leaf-file-name="__init__.py" pinned="false" current-in-tab="false">
         <entry file="file://$USER_HOME$/.PyCharm2018.1/system/python_stubs/-165236449/parselmouth/__init__.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="186">
+            <state relative-caret-position="10638">
               <caret line="395" column="8" selection-start-line="395" selection-start-column="8" selection-end-line="395" selection-end-column="8" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="praat.py" pinned="false" current-in-tab="false">
-        <entry file="file://$USER_HOME$/.PyCharm2018.1/system/python_stubs/-165236449/parselmouth/praat.py">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="186">
-              <caret line="15" column="4" selection-start-line="15" selection-start-column="4" selection-end-line="15" selection-end-column="4" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="features.py" pinned="false" current-in-tab="false">
-        <entry file="file://E:/Anaconda3/envs/mypython/Lib/site-packages/sidekit/frontend/features.py">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="25893">
-              <caret line="967" column="33" selection-start-line="967" selection-start-column="33" selection-end-line="967" selection-end-column="33" />
             </state>
           </provider>
         </entry>
@@ -91,31 +94,28 @@
         <entry file="file://$PROJECT_DIR$/README.md">
           <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
             <state split_layout="SPLIT">
-              <first_editor relative-caret-position="702">
-                <caret line="26" column="2" selection-start-line="26" selection-start-column="2" selection-end-line="26" selection-end-column="2" />
+              <first_editor relative-caret-position="503">
+                <caret line="28" column="7" selection-start-line="28" selection-start-column="7" selection-end-line="28" selection-end-column="7" />
               </first_editor>
               <second_editor />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="pretreatment.py" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/pretreatment/pretreatment.py">
+      <file leaf-file-name="fbank.py" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/feature_extraction/fbank.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="-26">
-              <caret line="16" column="9" lean-forward="true" selection-start-line="16" selection-start-column="9" selection-end-line="16" selection-end-column="9" />
-              <folding>
-                <element signature="e#0#18#0" expanded="true" />
-              </folding>
+            <state relative-caret-position="491">
+              <caret line="160" column="15" selection-start-line="160" selection-start-column="15" selection-end-line="160" selection-end-column="15" />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="signaltools.py" pinned="false" current-in-tab="false">
-        <entry file="file://E:/Anaconda3/envs/mypython/Lib/site-packages/scipy/signal/signaltools.py">
+      <file leaf-file-name="drawer_utils.py" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/tools/drawer_utils.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="39231">
-              <caret line="1478" column="47" selection-start-line="1478" selection-start-column="47" selection-end-line="1478" selection-end-column="47" />
+            <state relative-caret-position="329">
+              <caret line="31" column="25" selection-start-line="31" selection-start-column="25" selection-end-line="31" selection-end-column="25" />
             </state>
           </provider>
         </entry>
@@ -149,13 +149,16 @@
         <option value="$PROJECT_DIR$/feature_extraction/extractor.py" />
         <option value="$PROJECT_DIR$/feature_extraction/extractor-py2.py" />
         <option value="$PROJECT_DIR$/tools/sound_utils.py" />
-        <option value="$PROJECT_DIR$/feature_extraction/mfcc.py" />
         <option value="$PROJECT_DIR$/feature_extraction/spectrogram.py" />
-        <option value="$PROJECT_DIR$/tools/drawer_utils.py" />
         <option value="$PROJECT_DIR$/feature_extraction/plp.py" />
-        <option value="$PROJECT_DIR$/README.md" />
         <option value="$PROJECT_DIR$/pretreatment/pretreatment.py" />
+        <option value="$PROJECT_DIR$/README.md" />
+        <option value="$PROJECT_DIR$/feature_extraction/Fbank.py" />
         <option value="$PROJECT_DIR$/feature_extraction/formant.py" />
+        <option value="$PROJECT_DIR$/tools/drawer_utils.py" />
+        <option value="$PROJECT_DIR$/feature_extraction/mfcc.py" />
+        <option value="$PROJECT_DIR$/feature_extraction/fbank.py" />
+        <option value="$PROJECT_DIR$/feature_extraction/spectral_subband_centroids.py" />
       </list>
     </option>
   </component>
@@ -169,7 +172,7 @@
     <packageJsonPaths />
   </component>
   <component name="ProjectFrameBounds">
-    <option name="x" value="953" />
+    <option name="x" value="-7" />
     <option name="width" value="974" />
     <option name="height" value="1047" />
   </component>
@@ -199,19 +202,6 @@
               <item name="sounds pretreatment" type="b2602c69:ProjectViewProjectNode" />
               <item name="sounds pretreatment" type="462c0819:PsiDirectoryNode" />
               <item name="tools" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="sounds pretreatment" type="b2602c69:ProjectViewProjectNode" />
-              <item name="External Libraries" type="cb654da1:ExternalLibrariesNode" />
-            </path>
-            <path>
-              <item name="sounds pretreatment" type="b2602c69:ProjectViewProjectNode" />
-              <item name="Scratches and Consoles" type="1a2a3e82:ScratchProjectViewPane$MyProjectNode" />
-            </path>
-            <path>
-              <item name="sounds pretreatment" type="b2602c69:ProjectViewProjectNode" />
-              <item name="Scratches and Consoles" type="1a2a3e82:ScratchProjectViewPane$MyProjectNode" />
-              <item name="Extensions" type="d62648e6:ScratchProjectViewPane$MyRootNode" />
             </path>
           </expand>
           <select />
@@ -253,7 +243,7 @@
     <servers />
   </component>
   <component name="ToolWindowManager">
-    <frame x="953" y="0" width="974" height="1047" extended-state="0" />
+    <frame x="-7" y="0" width="974" height="1047" extended-state="0" />
     <editor active="true" />
     <layout>
       <window_info anchor="bottom" id="TODO" order="6" />
@@ -263,7 +253,7 @@
       <window_info anchor="bottom" id="Python Console" order="7" />
       <window_info anchor="bottom" id="Run" order="2" />
       <window_info anchor="bottom" id="Terminal" order="7" visible="true" weight="0.32929516" />
-      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.21225382" />
+      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.21881838" />
       <window_info anchor="bottom" id="Docker" order="7" show_stripe_button="false" />
       <window_info anchor="right" id="Database" order="3" />
       <window_info anchor="right" id="SciView" order="3" />
@@ -286,13 +276,140 @@
     <option name="myLimit" value="2678400000" />
   </component>
   <component name="editorHistoryManager">
+    <entry file="file://$USER_HOME$/.PyCharm2018.1/system/python_stubs/-165236449/parselmouth/__init__.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="10665">
+          <caret line="395" column="8" selection-start-line="395" selection-start-column="8" selection-end-line="395" selection-end-column="8" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$USER_HOME$/.PyCharm2018.1/system/python_stubs/-165236449/parselmouth/praat.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="405">
+          <caret line="15" column="4" selection-start-line="15" selection-start-column="4" selection-end-line="15" selection-end-column="4" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://E:/Anaconda3/envs/mypython/Lib/site-packages/sidekit/frontend/features.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="25893">
+          <caret line="967" column="33" selection-start-line="967" selection-start-column="33" selection-end-line="967" selection-end-column="33" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/pretreatment/pretreatment.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="378">
+          <caret line="16" column="9" selection-start-line="16" selection-start-column="9" selection-end-line="16" selection-end-column="9" />
+          <folding>
+            <element signature="e#0#18#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://E:/Anaconda3/envs/mypython/Lib/site-packages/scipy/signal/signaltools.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="39231">
+          <caret line="1478" column="47" selection-start-line="1478" selection-start-column="47" selection-end-line="1478" selection-end-column="47" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/README.md">
+      <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
+        <state split_layout="SPLIT">
+          <first_editor relative-caret-position="648">
+            <caret line="24" column="6" selection-start-line="24" selection-start-column="6" selection-end-line="24" selection-end-column="6" />
+          </first_editor>
+          <second_editor />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/feature_extraction/mfcc.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="189">
+          <caret line="9" column="7" selection-start-line="9" selection-start-column="7" selection-end-line="9" selection-end-column="7" />
+          <folding>
+            <element signature="e#0#18#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/feature_extraction/spectrogram.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="756">
+          <caret line="28" column="29" selection-start-line="28" selection-start-column="29" selection-end-line="28" selection-end-column="29" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/feature_extraction/plp.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="189">
+          <caret line="7" column="17" selection-start-line="7" selection-start-column="17" selection-end-line="7" selection-end-column="17" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/feature_extraction/formant.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="297">
+          <caret line="12" column="27" lean-forward="true" selection-start-line="12" selection-start-column="27" selection-end-line="12" selection-end-column="27" />
+          <folding>
+            <element signature="e#0#18#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$USER_HOME$/.PyCharm2018.1/system/python_stubs/-165236449/parselmouth/__init__.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="10665">
+          <caret line="395" column="8" selection-start-line="395" selection-start-column="8" selection-end-line="395" selection-end-column="8" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$USER_HOME$/.PyCharm2018.1/system/python_stubs/-165236449/parselmouth/praat.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="405">
+          <caret line="15" column="4" selection-start-line="15" selection-start-column="4" selection-end-line="15" selection-end-column="4" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://E:/Anaconda3/envs/mypython/Lib/site-packages/sidekit/frontend/features.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="25893">
+          <caret line="967" column="33" selection-start-line="967" selection-start-column="33" selection-end-line="967" selection-end-column="33" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/pretreatment/pretreatment.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="378">
+          <caret line="16" column="9" lean-forward="true" selection-start-line="16" selection-start-column="9" selection-end-line="16" selection-end-column="9" />
+          <folding>
+            <element signature="e#0#18#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://E:/Anaconda3/envs/mypython/Lib/site-packages/scipy/signal/signaltools.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="39231">
+          <caret line="1478" column="47" selection-start-line="1478" selection-start-column="47" selection-end-line="1478" selection-end-column="47" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/README.md">
+      <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
+        <state split_layout="SPLIT">
+          <first_editor relative-caret-position="702">
+            <caret line="26" column="9" selection-start-line="26" selection-start-column="9" selection-end-line="26" selection-end-column="9" />
+          </first_editor>
+          <second_editor />
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/tools/drawer_utils.py">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="756">
           <caret line="29" column="66" selection-start-line="29" selection-start-column="66" selection-end-line="29" selection-end-column="66" />
-          <folding>
-            <element signature="e#0#18#0" expanded="true" />
-          </folding>
         </state>
       </provider>
     </entry>
@@ -300,9 +417,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="189">
           <caret line="8" column="30" selection-start-line="8" selection-start-column="30" selection-end-line="8" selection-end-column="30" />
-          <folding>
-            <element signature="e#0#24#0" expanded="true" />
-          </folding>
         </state>
       </provider>
     </entry>
@@ -358,9 +472,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="108">
           <caret line="6" column="6" selection-start-line="6" selection-start-column="6" selection-end-line="6" selection-end-column="6" />
-          <folding>
-            <element signature="e#0#28#0" expanded="true" />
-          </folding>
         </state>
       </provider>
     </entry>
@@ -378,9 +489,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="783">
           <caret line="29" column="66" selection-start-line="29" selection-start-column="66" selection-end-line="29" selection-end-column="66" />
-          <folding>
-            <element signature="e#0#18#0" expanded="true" />
-          </folding>
         </state>
       </provider>
     </entry>
@@ -388,9 +496,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="189">
           <caret line="8" column="30" selection-start-line="8" selection-start-column="30" selection-end-line="8" selection-end-column="30" />
-          <folding>
-            <element signature="e#0#24#0" expanded="true" />
-          </folding>
         </state>
       </provider>
     </entry>
@@ -432,9 +537,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="108">
           <caret line="6" column="6" selection-start-line="6" selection-start-column="6" selection-end-line="6" selection-end-column="6" />
-          <folding>
-            <element signature="e#0#28#0" expanded="true" />
-          </folding>
         </state>
       </provider>
     </entry>
@@ -449,9 +551,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="108">
           <caret line="6" column="6" selection-start-line="6" selection-start-column="6" selection-end-line="6" selection-end-column="6" />
-          <folding>
-            <element signature="e#0#28#0" expanded="true" />
-          </folding>
         </state>
       </provider>
     </entry>
@@ -459,36 +558,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="189">
           <caret line="8" column="30" selection-start-line="8" selection-start-column="30" selection-end-line="8" selection-end-column="30" />
-          <folding>
-            <element signature="e#0#24#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/tools/drawer_utils.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="756">
-          <caret line="29" column="66" selection-start-line="29" selection-start-column="66" selection-end-line="29" selection-end-column="66" />
-          <folding>
-            <element signature="e#0#18#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/feature_extraction/mfcc.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="189">
-          <caret line="9" column="7" selection-start-line="9" selection-start-column="7" selection-end-line="9" selection-end-column="7" />
-          <folding>
-            <element signature="e#0#18#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/feature_extraction/spectrogram.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="756">
-          <caret line="28" column="29" selection-start-line="28" selection-start-column="29" selection-end-line="28" selection-end-column="29" />
         </state>
       </provider>
     </entry>
@@ -496,16 +565,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="25893">
           <caret line="967" column="33" selection-start-line="967" selection-start-column="33" selection-end-line="967" selection-end-column="33" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/README.md">
-      <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
-        <state split_layout="SPLIT">
-          <first_editor relative-caret-position="702">
-            <caret line="26" column="2" selection-start-line="26" selection-start-column="2" selection-end-line="26" selection-end-column="2" />
-          </first_editor>
-          <second_editor />
         </state>
       </provider>
     </entry>
@@ -525,8 +584,8 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/pretreatment/pretreatment.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-26">
-          <caret line="16" column="9" lean-forward="true" selection-start-line="16" selection-start-column="9" selection-end-line="16" selection-end-column="9" />
+        <state relative-caret-position="378">
+          <caret line="16" column="9" selection-start-line="16" selection-start-column="9" selection-end-line="16" selection-end-column="9" />
           <folding>
             <element signature="e#0#18#0" expanded="true" />
           </folding>
@@ -535,7 +594,7 @@
     </entry>
     <entry file="file://$USER_HOME$/.PyCharm2018.1/system/python_stubs/-165236449/parselmouth/praat.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="186">
+        <state relative-caret-position="405">
           <caret line="15" column="4" selection-start-line="15" selection-start-column="4" selection-end-line="15" selection-end-column="4" />
         </state>
       </provider>
@@ -549,18 +608,73 @@
     </entry>
     <entry file="file://$USER_HOME$/.PyCharm2018.1/system/python_stubs/-165236449/parselmouth/__init__.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="186">
+        <state relative-caret-position="10638">
           <caret line="395" column="8" selection-start-line="395" selection-start-column="8" selection-end-line="395" selection-end-column="8" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/README.md">
+      <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
+        <state split_layout="SPLIT">
+          <first_editor relative-caret-position="503">
+            <caret line="28" column="7" selection-start-line="28" selection-start-column="7" selection-end-line="28" selection-end-column="7" />
+          </first_editor>
+          <second_editor />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/feature_extraction/formant.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="424">
-          <caret line="22" lean-forward="true" selection-start-line="22" selection-end-line="22" />
+        <state relative-caret-position="243">
+          <caret line="10" column="30" selection-start-line="10" selection-start-column="30" selection-end-line="10" selection-end-column="30" />
           <folding>
             <element signature="e#0#18#0" expanded="true" />
           </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/tools/drawer_utils.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="329">
+          <caret line="31" column="25" selection-start-line="31" selection-start-column="25" selection-end-line="31" selection-end-column="25" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/feature_extraction/fbank.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="491">
+          <caret line="160" column="15" selection-start-line="160" selection-start-column="15" selection-end-line="160" selection-end-column="15" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://E:/Anaconda3/envs/mypython/Lib/site-packages/python_speech_features/base.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="456">
+          <caret line="81" column="23" selection-start-line="81" selection-start-column="23" selection-end-line="81" selection-end-column="23" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/feature_extraction/spectral_subband_centroids.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="135">
+          <caret line="5" selection-start-line="5" selection-end-line="5" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/feature_extraction/mfcc.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="1107">
+          <caret line="74" selection-start-line="74" selection-end-line="74" />
+          <folding>
+            <element signature="e#0#18#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/feature_extraction/spectrogram.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="189">
+          <caret line="49" column="24" selection-start-line="49" selection-start-column="14" selection-end-line="49" selection-end-column="24" />
         </state>
       </provider>
     </entry>

@@ -64,10 +64,15 @@ def hz2mel(hz):
 
 
 def make_mel(spectrogram, mel_filter, shorten_factor=1):
+    # print(spectrogram)
     mel_spec = np.transpose(mel_filter).dot(np.transpose(spectrogram))
     mel_spec = scipy.ndimage.zoom(mel_spec.astype('float32'), [1, 1. / shorten_factor]).astype('float16')
     mel_spec = mel_spec[:, 1:-1]  # a little hacky but seemingly needed for clipping
     return mel_spec
+
+
+def get_mfcc(mel_spec):
+    return np.log(mel_spec)
 
 
 def get_delta_mfcc(mfcc_feat, N=2):

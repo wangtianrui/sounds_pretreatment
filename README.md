@@ -27,3 +27,7 @@
 * Formant
 
 * FBank
+
+* gammatonegram
+
+* GFCC

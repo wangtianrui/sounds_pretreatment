@@ -31,3 +31,4 @@ def plot_colorbar(array):
     heatmap = plt.pcolor(array)
     fig.colorbar(heatmap)
     plt.tight_layout()
+    plt.show()

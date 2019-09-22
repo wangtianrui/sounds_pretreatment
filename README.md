@@ -1,5 +1,7 @@
 # 语音处理的一些方法实现总结
 
+Implement for some feature extract of sound 
+
 * 短时能量
 
 * 短时平均幅度

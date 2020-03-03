@@ -30,6 +30,10 @@ def _spectrum_magnitude(frames, NFFT):
         Return magnitude of the spectrum after FFT, with shape (frames_num, NFFT).
     '''
     complex_spectrum = np.fft.rfft(frames, NFFT)
+#     print(np.shape(complex_spectrum))
+#     print(np.absolute(complex_spectrum)[:5])
+    # 计算的是 矢量的长度
+    # 为啥是 NFFT / 2  ， 因为对称性
     return np.absolute(complex_spectrum)
 
 
@@ -41,6 +45,7 @@ def _spectrum_power(frames, NFFT):
     Returns:
         Power spectrum: PS = magnitude^2/NFFT
     """
+    # 首先 功率谱是 傅里叶系数的平方，除以N是因为分窗把原周期扩大了N倍
     return 1.0 / NFFT * np.square(_spectrum_magnitude(frames, NFFT))
 
 
@@ -92,12 +97,15 @@ def _fbank(frames, sample_rate=16000, filters_num=26, NFFT=512, low_freq=0, high
     """
     high_freq = high_freq or sample_rate / 2
     spec_power = _spectrum_power(frames, NFFT)
+#     print(np.shape(spec_power))
     energy = np.sum(spec_power, 1)
+    # 将其中的0全部换掉
     energy = np.where(energy == 0, np.finfo(float).eps, energy)
     # Get Mel filter banks.
     fb = _get_filter_banks(filters_num, NFFT, sample_rate, low_freq, high_freq)
-    # Get MFCC and modify all zeros to eps.
+    # Get MFCC and modify all zeros to eps 非负最小值.
     feat = np.dot(spec_power, fb.T)
+    # 将其中的0全部换掉
     feat = np.where(feat == 0, np.finfo(float).eps, feat)
 
     return feat, energy
@@ -155,7 +163,7 @@ def calcFbank(frames, sample_rate=16000, filters_num=26, NFFT=512, low_freq=0, h
 
 
 from python_speech_features import logfbank
-
+from python_speech_features import fbank
 
 def get_log_fbank(signal, rate):
     return logfbank(signal, rate)

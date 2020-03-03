@@ -2,12 +2,12 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="752e605d-a048-4088-9ce3-a60af23237af" name="Default" comment="">
-      <change afterPath="$PROJECT_DIR$/examples/glottal.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/tools/load_utils.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/真正理解基频.py" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/feature_extraction/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/feature_extraction/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.ipynb_checkpoints/py3_main-checkpoint.ipynb" beforeDir="false" afterPath="$PROJECT_DIR$/.ipynb_checkpoints/py3_main-checkpoint.ipynb" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/feature_extraction/fbank.py" beforeDir="false" afterPath="$PROJECT_DIR$/feature_extraction/fbank.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/feature_extraction/simple_extractor_py3.py" beforeDir="false" afterPath="$PROJECT_DIR$/feature_extraction/simple_extractor_py3.py" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/py3_main.ipynb" beforeDir="false" afterPath="$PROJECT_DIR$/py3_main.ipynb" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/tools/drawer_utils.py" beforeDir="false" afterPath="$PROJECT_DIR$/tools/drawer_utils.py" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="TRACKING_ENABLED" value="true" />
@@ -18,25 +18,83 @@
   </component>
   <component name="CoverageDataManager">
     <SUITE FILE_PATH="coverage/sounds_pretreatment$glottal.coverage" NAME="glottal Coverage Results" MODIFIED="1569137705189" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/examples" />
+    <SUITE FILE_PATH="coverage/sounds_pretreatment$.coverage" NAME="真正理解基频 Coverage Results" MODIFIED="1583235430218" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
   </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file leaf-file-name="spectrogram.py" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/feature_extraction/spectrogram.py">
+      <file leaf-file-name="sound_utils.py" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/tools/sound_utils.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="648">
-              <caret line="24" column="7" selection-start-line="24" selection-start-column="7" selection-end-line="24" selection-end-column="7" />
+            <state relative-caret-position="216">
+              <caret line="9" selection-start-line="9" selection-end-line="9" />
+              <folding>
+                <element signature="e#0#24#0" expanded="true" />
+              </folding>
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="gfcc.py" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/feature_extraction/gfcc.py">
+      <file leaf-file-name="spectrogram.py" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/feature_extraction/spectrogram.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="189">
-              <caret line="7" column="31" selection-start-line="7" selection-start-column="31" selection-end-line="7" selection-end-column="31" />
+            <state relative-caret-position="243">
+              <caret line="9" column="14" selection-start-line="9" selection-start-column="14" selection-end-line="9" selection-end-column="14" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="simple_extractor_py3.py" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/feature_extraction/simple_extractor_py3.py">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="2646">
+              <caret line="98" column="13" selection-start-line="98" selection-start-column="13" selection-end-line="98" selection-end-column="13" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="pretreatment.py" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/pretreatment/pretreatment.py">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="378">
+              <caret line="16" column="9" selection-start-line="16" selection-start-column="9" selection-end-line="16" selection-end-column="9" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="fbank.py" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/feature_extraction/fbank.py">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="4455">
+              <caret line="165" column="29" selection-start-line="165" selection-start-column="29" selection-end-line="165" selection-end-column="29" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="base.py" pinned="false" current-in-tab="false">
+        <entry file="file://E:/Anaconda3/envs/mypython/Lib/site-packages/python_speech_features/base.py">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="837">
+              <caret line="34" column="16" selection-start-line="34" selection-start-column="10" selection-end-line="34" selection-end-column="16" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="drawer_utils.py" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/tools/drawer_utils.py">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="280">
+              <caret line="29" column="23" selection-start-line="29" selection-start-column="23" selection-end-line="29" selection-end-column="23" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="真正理解基频.py" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/真正理解基频.py">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="389">
+              <caret line="75" column="16" lean-forward="true" selection-start-line="75" selection-start-column="16" selection-end-line="75" selection-end-column="16" />
               <folding>
-                <element signature="e#0#59#0" expanded="true" />
+                <element signature="e#0#21#0" expanded="true" />
               </folding>
             </state>
           </provider>
@@ -47,75 +105,6 @@
           <provider selected="true" editor-type-id="ipnb-editor">
             <state>
               <selected id="0" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="README.md" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/README.md">
-          <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
-            <state split_layout="SPLIT">
-              <first_editor relative-caret-position="918">
-                <caret line="34" column="6" selection-start-line="34" selection-start-column="6" selection-end-line="34" selection-end-column="6" />
-              </first_editor>
-              <second_editor />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="glottal_flow.py" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/feature_extraction/glottal_flow.py">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="81">
-              <caret line="3" column="16" selection-start-line="3" selection-start-column="16" selection-end-line="3" selection-end-column="16" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="load_utils.py" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/tools/load_utils.py">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="81">
-              <caret line="3" column="24" selection-start-line="3" selection-start-column="24" selection-end-line="3" selection-end-column="24" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="glottal.py" pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/examples/glottal.py">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="324">
-              <caret line="12" column="33" lean-forward="true" selection-start-line="12" selection-start-column="33" selection-end-line="12" selection-end-column="33" />
-              <folding>
-                <element signature="e#0#60#0" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="drawer_utils.py" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/tools/drawer_utils.py">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="458">
-              <caret line="33" column="13" selection-start-line="33" selection-start-column="13" selection-end-line="33" selection-end-column="13" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="glottal.py" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/pypevoc/speech/glottal.py">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="323">
-              <caret line="239" column="36" selection-start-line="239" selection-start-column="36" selection-end-line="239" selection-end-column="36" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="fir_filter_design.py" pinned="false" current-in-tab="false">
-        <entry file="file://E:/Anaconda3/envs/mypython/Lib/site-packages/scipy/signal/fir_filter_design.py">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="404">
-              <caret line="765" column="68" selection-start-line="765" selection-start-column="65" selection-end-line="765" selection-end-column="68" />
             </state>
           </provider>
         </entry>
@@ -156,7 +145,6 @@
         <option value="$PROJECT_DIR$/pretreatment/pretreatment.py" />
         <option value="$PROJECT_DIR$/feature_extraction/Fbank.py" />
         <option value="$PROJECT_DIR$/feature_extraction/formant.py" />
-        <option value="$PROJECT_DIR$/feature_extraction/fbank.py" />
         <option value="$PROJECT_DIR$/feature_extraction/spectral_subband_centroids.py" />
         <option value="$PROJECT_DIR$/feature_extraction/GFCC.py" />
         <option value="$PROJECT_DIR$/feature_extraction/gamatone_gram.py" />
@@ -172,6 +160,9 @@
         <option value="$PROJECT_DIR$/pypevoc/speech/glottal.py" />
         <option value="$PROJECT_DIR$/tools/drawer_utils.py" />
         <option value="$PROJECT_DIR$/examples/glottal.py" />
+        <option value="$PROJECT_DIR$/feature_extraction/simple_extractor_py3.py" />
+        <option value="$PROJECT_DIR$/feature_extraction/fbank.py" />
+        <option value="$PROJECT_DIR$/真正理解基频.py" />
       </list>
     </option>
   </component>
@@ -184,8 +175,8 @@
   <component name="NodePackageJsonFileManager">
     <packageJsonPaths />
   </component>
-  <component name="ProjectFrameBounds" extendedState="6">
-    <option name="x" value="-7" />
+  <component name="ProjectFrameBounds" extendedState="7">
+    <option name="x" value="953" />
     <option name="width" value="974" />
     <option name="height" value="1047" />
   </component>
@@ -194,7 +185,6 @@
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
-      <pane id="Scope" />
       <pane id="ProjectPane">
         <subPane>
           <expand>
@@ -205,22 +195,13 @@
             <path>
               <item name="sounds pretreatment" type="b2602c69:ProjectViewProjectNode" />
               <item name="sounds pretreatment" type="462c0819:PsiDirectoryNode" />
-              <item name="examples" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="sounds pretreatment" type="b2602c69:ProjectViewProjectNode" />
-              <item name="sounds pretreatment" type="462c0819:PsiDirectoryNode" />
-              <item name="feature_extraction" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="sounds pretreatment" type="b2602c69:ProjectViewProjectNode" />
-              <item name="sounds pretreatment" type="462c0819:PsiDirectoryNode" />
-              <item name="tools" type="462c0819:PsiDirectoryNode" />
+              <item name="datas" type="462c0819:PsiDirectoryNode" />
             </path>
           </expand>
           <select />
         </subPane>
       </pane>
+      <pane id="Scope" />
     </panes>
   </component>
   <component name="PropertiesComponent">
@@ -242,7 +223,26 @@
       </list>
     </option>
   </component>
-  <component name="RunManager">
+  <component name="RunManager" selected="Python.真正理解基频">
+    <configuration name="真正理解基频" type="PythonConfigurationType" factoryName="Python" temporary="true">
+      <module name="sounds pretreatment" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <EXTENSION ID="PythonCoverageRunConfigurationExtension" runner="coverage.py" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/真正理解基频.py" />
+      <option name="PARAMETERS" value="" />
+      <option name="SHOW_COMMAND_LINE" value="false" />
+      <option name="EMULATE_TERMINAL" value="false" />
+      <option name="MODULE_MODE" value="false" />
+    </configuration>
     <configuration name="glottal" type="PythonConfigurationType" factoryName="Python" temporary="true">
       <module name="sounds pretreatment" />
       <option name="INTERPRETER_OPTIONS" value="" />
@@ -262,8 +262,13 @@
       <option name="EMULATE_TERMINAL" value="false" />
       <option name="MODULE_MODE" value="false" />
     </configuration>
+    <list>
+      <item itemvalue="Python.glottal" />
+      <item itemvalue="Python.真正理解基频" />
+    </list>
     <recent_temporary>
       <list>
+        <item itemvalue="Python.真正理解基频" />
         <item itemvalue="Python.glottal" />
       </list>
     </recent_temporary>
@@ -288,24 +293,24 @@
       <window_info anchor="bottom" id="TODO" order="6" />
       <window_info anchor="bottom" id="Event Log" order="7" side_tool="true" />
       <window_info anchor="bottom" id="Database Changes" order="7" show_stripe_button="false" />
-      <window_info anchor="bottom" id="Run" order="2" visible="true" weight="0.3293348" />
       <window_info anchor="bottom" id="Version Control" order="7" />
       <window_info anchor="bottom" id="Python Console" order="7" />
-      <window_info anchor="bottom" id="Terminal" order="7" weight="0.32279173" />
-      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.12313433" />
+      <window_info anchor="bottom" id="Run" order="2" visible="true" weight="0.3293348" />
+      <window_info anchor="bottom" id="Terminal" order="7" weight="0.31624863" />
+      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.13965885" />
       <window_info anchor="bottom" id="Docker" order="7" show_stripe_button="false" />
       <window_info anchor="right" id="Database" order="3" />
-      <window_info anchor="bottom" id="Find" order="1" />
-      <window_info active="true" anchor="right" id="SciView" order="3" visible="true" weight="0.4008529" />
+      <window_info active="true" anchor="right" id="SciView" order="3" visible="true" weight="0.3944563" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
-      <window_info anchor="bottom" id="Debug" order="3" weight="0.4" />
       <window_info id="Favorites" order="2" side_tool="true" />
+      <window_info anchor="bottom" id="Debug" order="3" weight="0.4" />
       <window_info anchor="right" content_ui="combo" id="Hierarchy" order="2" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
       <window_info anchor="right" id="Commander" internal_type="SLIDING" order="0" type="SLIDING" weight="0.4" />
       <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
       <window_info anchor="bottom" id="Message" order="0" />
       <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
+      <window_info anchor="bottom" id="Find" order="1" />
     </layout>
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -315,20 +320,6 @@
     <option name="myLimit" value="2678400000" />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://E:/Anaconda3/envs/mypython/Lib/site-packages/sidekit/frontend/features.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="25893">
-          <caret line="967" column="33" selection-start-line="967" selection-start-column="33" selection-end-line="967" selection-end-column="33" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/pretreatment/pretreatment.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="378">
-          <caret line="16" column="9" lean-forward="true" selection-start-line="16" selection-start-column="9" selection-end-line="16" selection-end-column="9" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://E:/Anaconda3/envs/mypython/Lib/site-packages/scipy/signal/signaltools.py">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="39231">
@@ -364,9 +355,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="189">
           <caret line="9" column="7" selection-start-line="9" selection-start-column="7" selection-end-line="9" selection-end-column="7" />
-          <folding>
-            <element signature="e#0#18#0" expanded="true" />
-          </folding>
         </state>
       </provider>
     </entry>
@@ -440,9 +428,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="1836">
           <caret line="70" selection-start-line="70" selection-end-line="70" />
-          <folding>
-            <element signature="e#0#18#0" expanded="true" />
-          </folding>
         </state>
       </provider>
     </entry>
@@ -481,13 +466,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/tools/sound_utils.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="189">
-          <caret line="8" column="30" selection-start-line="8" selection-start-column="30" selection-end-line="8" selection-end-column="30" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://E:/Anaconda3/envs/mypython/Lib/site-packages/sidekit/frontend/features.py">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="25893">
@@ -506,13 +484,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="39231">
           <caret line="1478" column="47" selection-start-line="1478" selection-start-column="47" selection-end-line="1478" selection-end-column="47" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/pretreatment/pretreatment.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="378">
-          <caret line="16" column="9" selection-start-line="16" selection-start-column="9" selection-end-line="16" selection-end-column="9" />
         </state>
       </provider>
     </entry>
@@ -544,20 +515,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/feature_extraction/fbank.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="4320">
-          <caret line="160" column="15" selection-start-line="160" selection-start-column="15" selection-end-line="160" selection-end-column="15" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://E:/Anaconda3/envs/mypython/Lib/site-packages/python_speech_features/base.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="2106">
-          <caret line="81" column="23" selection-start-line="81" selection-start-column="23" selection-end-line="81" selection-end-column="23" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/feature_extraction/spectral_subband_centroids.py">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="135">
@@ -566,20 +523,10 @@
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/feature_extraction/cochlea.py" />
-    <entry file="file://$PROJECT_DIR$/feature_extraction/simple_extractor_py3.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="2079">
-          <caret line="77" column="28" selection-start-line="77" selection-start-column="28" selection-end-line="77" selection-end-column="28" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/feature_extraction/gammatone_gram.py">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="3861">
           <caret line="143" selection-start-line="143" selection-end-line="143" />
-          <folding>
-            <element signature="e#451#482#0" expanded="true" />
-          </folding>
         </state>
       </provider>
     </entry>
@@ -588,21 +535,11 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="1944">
           <caret line="72" selection-start-line="72" selection-end-line="72" />
-          <folding>
-            <element signature="e#0#18#0" expanded="true" />
-          </folding>
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/python_speech_features/sigproc.py" />
     <entry file="file://$PROJECT_DIR$/python_speech_features/base.py" />
-    <entry file="file://$PROJECT_DIR$/feature_extraction/spectrogram.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="648">
-          <caret line="24" column="7" selection-start-line="24" selection-start-column="7" selection-end-line="24" selection-end-column="7" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/README.md">
       <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
         <state split_layout="SPLIT">
@@ -615,31 +552,14 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/feature_extraction/gfcc.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="189">
+        <state relative-caret-position="162">
           <caret line="7" column="31" selection-start-line="7" selection-start-column="31" selection-end-line="7" selection-end-column="31" />
-          <folding>
-            <element signature="e#0#59#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/py3_main.ipynb">
-      <provider selected="true" editor-type-id="ipnb-editor">
-        <state>
-          <selected id="0" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/tools/load_utils.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="81">
-          <caret line="3" column="24" selection-start-line="3" selection-start-column="24" selection-end-line="3" selection-end-column="24" />
         </state>
       </provider>
     </entry>
     <entry file="file://E:/Anaconda3/envs/mypython/Lib/site-packages/scipy/signal/fir_filter_design.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="404">
+        <state relative-caret-position="20358">
           <caret line="765" column="68" selection-start-line="765" selection-start-column="65" selection-end-line="765" selection-end-column="68" />
         </state>
       </provider>
@@ -653,24 +573,100 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/pypevoc/speech/glottal.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="323">
+        <state relative-caret-position="6345">
           <caret line="239" column="36" selection-start-line="239" selection-start-column="36" selection-end-line="239" selection-end-column="36" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/tools/drawer_utils.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="458">
-          <caret line="33" column="13" selection-start-line="33" selection-start-column="13" selection-end-line="33" selection-end-column="13" />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/examples/glottal.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="324">
-          <caret line="12" column="33" lean-forward="true" selection-start-line="12" selection-start-column="33" selection-end-line="12" selection-end-column="33" />
+        <state relative-caret-position="243">
+          <caret line="12" column="33" selection-start-line="12" selection-start-column="33" selection-end-line="12" selection-end-column="33" />
           <folding>
             <element signature="e#0#60#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/tools/load_utils.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="81">
+          <caret line="3" column="24" selection-start-line="3" selection-start-column="24" selection-end-line="3" selection-end-column="24" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/feature_extraction/spectrogram.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="243">
+          <caret line="9" column="14" selection-start-line="9" selection-start-column="14" selection-end-line="9" selection-end-column="14" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/pretreatment/pretreatment.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="378">
+          <caret line="16" column="9" selection-start-line="16" selection-start-column="9" selection-end-line="16" selection-end-column="9" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/tools/sound_utils.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="216">
+          <caret line="9" selection-start-line="9" selection-end-line="9" />
+          <folding>
+            <element signature="e#0#24#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://E:/Anaconda3/envs/mypython/Lib/site-packages/python_speech_features/base.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="837">
+          <caret line="34" column="16" selection-start-line="34" selection-start-column="10" selection-end-line="34" selection-end-column="16" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/feature_extraction/simple_extractor_py3.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="2646">
+          <caret line="98" column="13" selection-start-line="98" selection-start-column="13" selection-end-line="98" selection-end-column="13" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/feature_extraction/fbank.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="4455">
+          <caret line="165" column="29" selection-start-line="165" selection-start-column="29" selection-end-line="165" selection-end-column="29" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/tools/drawer_utils.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="280">
+          <caret line="29" column="23" selection-start-line="29" selection-start-column="23" selection-end-line="29" selection-end-column="23" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/py3_main.ipynb">
+      <provider selected="true" editor-type-id="ipnb-editor">
+        <state>
+          <selected id="0" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://E:/Anaconda3/envs/mypython/Lib/site-packages/librosa/core/spectrum.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="188">
+          <caret line="30" column="4" selection-start-line="30" selection-start-column="4" selection-end-line="30" selection-end-column="4" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/真正理解基频.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="389">
+          <caret line="75" column="16" lean-forward="true" selection-start-line="75" selection-start-column="16" selection-end-line="75" selection-end-column="16" />
+          <folding>
+            <element signature="e#0#21#0" expanded="true" />
           </folding>
         </state>
       </provider>
